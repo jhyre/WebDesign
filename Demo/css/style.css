@@ -1,0 +1,51 @@
+body { 
+background-color: Cornsilk;
+font font-family: sans-serif;
+
+
+ }
+
+h1 { 
+color: Orange;
+ }
+ #container {
+ 	width: 75vw;
+ 	margin: 0 auto;
+
+ }
+
+
+ .headline {
+	width: 70vw;
+	margin: auto;
+ }
+
+.image {
+    max-width: 70%;
+}
+
+ .body-text {
+	width: 35vw;
+	margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+ }
+
+ .profile { 
+ min-width: 300px;
+ min-height: 300px;
+  }
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 20px;
+        }
+    #container {
+        width: 50vw;
+    }
+    .headline {
+        width: 50vw;
+    }
+    .body-text {
+        width: 50vw;
+    }
+  
