@@ -3,9 +3,14 @@
 <head>
 	<title>H20i Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Fix this part -->
 		<link rel="stylesheet" type="text/css" href="D:\\WebDesign/H20/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Magra|Roboto" rel="stylesheet">
+		<style>
+			.mySlides {display: none;}
+		</style>
 </head>
 <body>
 
@@ -35,6 +40,40 @@ to become the host venue for the show and welcomes our community! We may be
 "laid back 2 day Volkswagen/Audi event".</p>
 </div>
 
+<img class="mySlides" src="H20/imgs/cops.jpg" style="width: 100%">
+<img class="mySlides" src="H20/imgs/comp.jpg" style="width: 100%">
+<img src="mySlides" src="H20/imgs/roll.jpg" style="width: 100%">
+<img src="mySlides" src="H20/imgs/vw.jpg" style="width: 100%">
+<img class="mySlides" src="H20/imgs/rwb.jpg" style="width: 100%">
+
+
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000);
+}
+
+</script>
+<!-- This is the bottom section for Address! 
+Make sure to change fonts and overall look -->
 	<div id="Location">	
 
 	<div id="SNOWBOAT">
