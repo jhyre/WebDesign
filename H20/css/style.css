@@ -2,7 +2,6 @@
 	width: 60vw;
 	margin: 0 auto;
 	padding-bottom: 30px;
-	background-color: WhiteSmoke;
 }
 .image {
 	max-width: 100%;
@@ -14,7 +13,7 @@
 }
 
 #Details {
-	text-align: center;
+	margin: 0 auto;
 }
 
 p {
