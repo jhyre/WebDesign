@@ -13,6 +13,7 @@ background-color: GhostWhite;
 .image {
 	max-width: 100%;
 	padding-bottom: 10px;
+	padding-top: 20px;
 }
 .image2 {
 	max-width: 100%;
@@ -21,19 +22,19 @@ background-color: GhostWhite;
 
 #Details {
 	margin: 0 auto;
+	padding-bottom: 30px;
 }
 #Logo {
 	margin-top: 50px;
 }
 
 p {
-	padding-bottom: 1px;
+	padding-bottom: .4px;
 }
 #Date { 
 font-family: Roboto;
 font-size: 30px;
 }
-
 
 #header { 
 font-size: 50px;
@@ -46,8 +47,8 @@ font-size: 70px;
 
 #body-text {
 	font-size: 18px;
-	font-family: Times New Roman;
-	padding-bottom: 10px;
+	font-family: 'Roboto';
+	padding-bottom: 5px;
 
 }
 
@@ -62,7 +63,7 @@ font-size: 70px;
 
 #ATLANTIC {
 	font-family: 'Roboto', sans-serif;
-	font-size: 26px;
+	font-size: 23px;
 }
 
 #SNOWBOAT {
@@ -75,13 +76,57 @@ font-size: 70px;
 	font-size: 23px;
 	font-family: 'Magra', sans-serif;
 }
+#case {
+	padding-bottom: 30px;
+}
 
 .button {
-	padding-top: 30px;
-	background-color: green;
-	font-size: 12px;
-	margin: 4px 2px;
-	display: inline-block;
-	color: white;
+	background-color: black;
+    border: solid gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial;
 
 }
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 22px;
+    }
+    #container {
+        width: 90vw;
+    }
+
+    .body-text {
+        width: 18vw;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    p {
+        font-size: .8em;
+    }
+ 
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    #container {
+        width: 90vw;
+    }
+    
+    .body-text {
+        width: 18vw;
+    }
+   
+    h1 {
+        font-size: 2.7em;
+    }
+    p {
+        font-size: .89em;
+    }
