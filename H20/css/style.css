@@ -1,8 +1,15 @@
 #container {
 	width: 60vw;
 	margin: 0 auto;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
+
+body { 
+background-color: GhostWhite;
+ }
+ #mySlides {
+ 	padding-top: 10px;
+ }
 .image {
 	max-width: 100%;
 	padding-bottom: 10px;
@@ -15,21 +22,31 @@
 #Details {
 	margin: 0 auto;
 }
+#Logo {
+	margin-top: 50px;
+}
 
 p {
 	padding-bottom: 1px;
 }
 #Date { 
 font-family: Roboto;
+font-size: 30px;
+}
+
+
+#header { 
+font-size: 50px;
 }
 
 h1 {
 font-family: 'Libre Franklin', sans-serif;
+font-size: 70px;
 }
 
 #body-text {
 	font-size: 18px;
-	font-family: ;
+	font-family: Times New Roman;
 	padding-bottom: 10px;
 
 }
@@ -59,6 +76,12 @@ font-family: 'Libre Franklin', sans-serif;
 	font-family: 'Magra', sans-serif;
 }
 
-#button {
+.button {
 	padding-top: 30px;
+	background-color: green;
+	font-size: 12px;
+	margin: 4px 2px;
+	display: inline-block;
+	color: white;
+
 }
