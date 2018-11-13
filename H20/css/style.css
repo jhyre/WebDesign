@@ -36,6 +36,9 @@ p {
 #Date { 
 font-family: Roboto;
 font-size: 30px;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 #header { 
@@ -45,6 +48,7 @@ font-size: 50px;
 h1 {
 font-family: 'Libre Franklin', sans-serif;
 font-size: 70px;
+margin: 0;
 }
 
 #body-text {
@@ -108,7 +112,7 @@ font-size: 70px;
         width: 18vw;
     }
     h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
     p {
         font-size: .8em;
@@ -127,7 +131,7 @@ font-size: 70px;
     }
    
     h1 {
-        font-size: 2.7em;
+        font-size: 2.0em;
     }
     p {
         font-size: .89em;
